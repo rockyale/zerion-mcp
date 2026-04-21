@@ -104,7 +104,7 @@ Note: use double backslashes `\\` in Windows paths.
 
 ### After editing the config
 
-Fully quit Claude Desktop (not just close the window) and reopen it. You should see a **hammer icon 🔨** in the chat input — click it to confirm the Zerion tools are loaded.
+Fully quit Claude Desktop (not just close the window) and reopen it. To confirm your Zerion MCP tools are loaded, click + in chat input and look for Zerion listed there in connectors — if it's showing, you're good to go.
 
 ---
 
