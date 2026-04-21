@@ -1,0 +1,24 @@
+{
+  "name": "zerion-mcp",
+  "version": "1.0.0",
+  "description": "Local MCP server wrapping the Zerion REST API",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "bip32": "^4.0.0",
+    "bitcoinjs-lib": "^6.0.0",
+    "tiny-secp256k1": "^2.0.0",
+    "undici": "^8.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
